@@ -23,7 +23,14 @@ pom.xml:
 
 然后使用以下命令提交：
 git init
-git add README.md
+git add com/*
 git commit -m "first commit"
 git remote add origin https://github.com/wengsongwei8/maven-repo.git
+git push -u origin master
+
+更新提交代码：
+
+git add com/*
+git commit -m "first commit"
+git pull origin master
 git push -u origin master
