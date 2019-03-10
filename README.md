@@ -22,11 +22,11 @@ pom.xml:
 先使用deploy命令，发布到本地：D:/mywork/maven-repo
 
 然后使用以下命令提交：
-git init
-git add com/*
-git commit -m "first commit"
-git remote add origin https://github.com/wengsongwei8/maven-repo.git
-git push -u origin master
+`git init
+`git add com/*
+`git commit -m "first commit"
+`git remote add origin https://github.com/wengsongwei8/maven-repo.git
+`git push -u origin master
 
 更新提交代码：
 
