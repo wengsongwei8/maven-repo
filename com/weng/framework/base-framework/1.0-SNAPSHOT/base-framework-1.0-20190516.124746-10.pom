@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.weng.framework</groupId>
+    <artifactId>base-framework</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>framework-common</module>
+        <module>framework-message-email</module>
+        <module>framework-parent</module>
+        <module>framework-message-alisms</module>
+        <module>framework-message-jgpush</module>
+        <module>framework-file-excel</module>
+        <module>framework-http</module>
+        <module>framework-web</module>
+        <module>framework-file</module>
+        <module>framework-validator</module>
+        <module>framework-dao-mybatis</module>
+        <module>framework-cache-redis</module>
+        <module>framework-sample-starter</module>
+        <module>framework-api-starter</module>
+        <module>framework-sample-api-starter</module>
+        <module>framework-core</module>
+        <module>framework-log-point</module>
+    </modules>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <lombok.version>1.16.14</lombok.version>
+    </properties>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>local-maven</id>
+            <url>file:D:/mywork/maven-repo</url>
+        </repository>
+    </distributionManagement>
+
+
+</project>
