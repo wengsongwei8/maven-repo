@@ -1,0 +1,16 @@
+github 
+wengsongwei8 
+
+新增：
+git init
+git add com
+git commit -m "first commit"
+git remote add origin https://github.com/wengsongwei8/maven-repo.git
+git push -u origin master
+
+
+更新：
+git add com/* 
+git commit -m "增加core 模块" 
+git pull origin master 
+git push -u origin master 
