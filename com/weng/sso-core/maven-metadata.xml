@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.weng</groupId>
-  <artifactId>sso-sdk</artifactId>
+  <artifactId>sso-core</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20191007035052</lastUpdated>
+    <lastUpdated>20191007035032</lastUpdated>
   </versioning>
 </metadata>
