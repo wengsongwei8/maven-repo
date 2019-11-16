@@ -11,6 +11,6 @@ git push -u origin master
 
 更新：
 git add com/* 
-git commit -m "增加core 模块" 
+git commit -m "core change" 
 git pull origin master 
 git push -u origin master 
