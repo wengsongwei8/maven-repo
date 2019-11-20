@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>framework-parent</artifactId>
+        <groupId>com.weng.framework</groupId>
+        <version>1.0.5-SNAPSHOT</version>
+        <relativePath>../framework-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>framework-cache-redis</artifactId>
+    <packaging>jar</packaging>
+    <name>framework-cache-redis</name>
+    <description>Redis操作</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.weng.framework</groupId>
+            <artifactId>framework-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+    <plugins>
+    <!-- 希望打jar时不包括配置文件放在jar里，需要放到jar以外的conf文件 -->
+    <!-- exclude的目录不是src下面的，是以编译结果classes为根目录计算,坑人！ -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+            <excludes>
+                <exclude>redis-config.properties</exclude>
+            </excludes>
+        </configuration>
+    </plugin>
+    </plugins>
+    </build>
+
+</project>
