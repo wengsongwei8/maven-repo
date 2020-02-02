@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.weng</groupId>
-  <artifactId>sso-sdk</artifactId>
+  <artifactId>sso-core</artifactId>
   <version>1.0.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20200202.050423</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20200202.050409</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20200202050423</lastUpdated>
+    <lastUpdated>20200202050409</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20200202.050423-2</value>
-        <updated>20200202050423</updated>
+        <value>1.0.4-20200202.050409-1</value>
+        <updated>20200202050409</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20200202.050423-2</value>
-        <updated>20200202050423</updated>
+        <value>1.0.4-20200202.050409-1</value>
+        <updated>20200202050409</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
